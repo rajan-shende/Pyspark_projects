@@ -1,0 +1,5 @@
+Client_id,registration_date,Customer_name,Customer_email,Customer_phone,Contract_status
+1,2022-01-15,John Doe,john.doe@gmail.com,1234567890,Active
+2,2021-11-30,Jane Smith,jane.smith@hotmail.com,9876543210,Inactive
+3,2023-03-10,Alice Lee,alice.lee@yahoo.com,5555555,Active
+4,2022-05-20,Bob Brown,bob.brown@gmail.com,Unknown,Active
