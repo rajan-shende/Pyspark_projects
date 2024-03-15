@@ -56,7 +56,7 @@ Final_df = clean_data_date_formatted.withColumn("Contract_status",when(year("reg
 # COMMAND ----------
 
 # DBTITLE 1,6.  Load the data in aws s3 at specific loaction a csv file.
-Final_df.coalesce(1).write.option("header","true").csv("s3://tendril-airflow-dev-us/Test_Tendril/customer_Data_Cleaned_2")
+Final_df.coalesce(1).write.option("header","true").csv("s3://sampleBucket/Test/customer_Data_Cleaned_2")
 
 # COMMAND ----------
 
