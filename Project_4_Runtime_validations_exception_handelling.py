@@ -12,7 +12,7 @@ cur_date = datetime.date.today()
 file_name = "s3://sample_bucket/sample_folder/sales_data_{}.csv".format(cur_date)
 # print(file_name)
 try:
-    check_for_data = spark.read.load("s3://sample_bucket/sample_folder/sales_data123.csv",format="csv")
+    check_for_data = spark.read.load(file_name,format="csv")
 except pyspark.sql.utils.AnalysisException:
     print("No file created for date : {}".format(cur_date))
 
